@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFBE86;
+}
+.container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2.8rem;
+    width: 33.5%;
+}
+.container h1{
+    font-size: 3.5rem;
+}
+#box{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 0.1rem;
+    font-size: 6rem;
+    background-color: #FFE9CE;
+}
+.boxes{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.9rem;
+}
+#reset{
+    width: 9rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    margin-top: 2.5rem;
+    box-shadow: 0 0 0.1rem;
+}
+#newGame{
+    width: 9rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    margin-top: 2rem;
+    box-shadow: 0 0 0.1rem;
+}
+#winnerPara{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.winnerPop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16rem;
+    margin-bottom: 16rem;
+}
+.hide{
+    display: none;
+}
