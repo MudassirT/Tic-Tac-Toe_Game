@@ -8,7 +8,7 @@ let turn = true;
 let isFull = true
 let clickCount = 0
 let gameOver = false
-
+//  Main Logic of the Game
 let winnerPattren = [
     [0,1,2],
     [3,4,5],
@@ -19,7 +19,7 @@ let winnerPattren = [
     [1,4,7],
     [2,5,8]
 ]
-
+// Function to display the winner
 function showWinner(pattren1Value) {
     winnerPara.textContent = `🎉 Congratulations "${pattren1Value}" is Win The Game`
     winnerPop.classList.remove("hide");
